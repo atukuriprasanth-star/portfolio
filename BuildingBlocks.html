@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styleS.css">
+</head>
+<body>
+  <header>
+    <div style="width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;">
+      <div>
+        <center>
+          <h1>Welcome to My Portfolio</h1>
+        </center>
+        <center><br>
+          <a href="#about"><button class="button">About</button></a>
+          <a href="#skills"><button class="button">Skills</button></a>
+          <a href="#projects"><button class="button">Projects</button></a>
+          <a href="#contact"><button class="button">Contact</button></a>
+        </center>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    
+    <section id="about">
+      <div style="width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; background-color: aliceblue;">
+        <div>
+          <center>
+            <h1>Prasanth SDTN</h1>
+            <br>
+            <img src="my image.jpeg" width="220" height="220">
+
+            <p>I am passionate web developer with a focus on<br> front-end technologies.</p>
+            <p>I am currently pursuing my B.Tech in <br><em>Siddharth Institute of Engineering and Technology</em> Puttur.</p>
+            <p>I have learnt web Development through online courses.</p>
+            <p>You can know to checkout what I have learnt in<br><strong> HTML, CSS, JS. </strong></p>
+          </center>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div style="width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; background-color: aliceblue;">
+        <div>
+          <h1>My Skills</h1>
+          <ol>
+            <li>Python Basics</li>
+            <li>HTML Basics</li>
+            <li>CSS Basics</li>
+            <li>JavaScript Basics</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div style="width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; background-color: aliceblue;">
+        <div>
+          <center>
+            <h1>My Projects</h1>
+          </center><br>
+          <table border="1">
+            <tr>
+              <th>Project</th>
+              <th>Description</th>
+            </tr>
+            <tr>
+              <td>Portfolio Website</td>
+              <td>I have built a Portfolio Website by using HTML, CSS & Javascript</td>
+            </tr>
+            <tr>
+              <td>Simple Calculator</td>
+              <td>I have built a Simple Calculator in the course by code with Swaroop</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div style="width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; background-color: aliceblue;">
+        <div>
+          <center>
+            <h1>Contact Me</h1>
+          </center>
+          <p>Feel free to get in touch with me using form below:</p>
+          <form action="">
+            <label for="name">Name:</label>
+            <input type="text" id="name"><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email"><br>
+            <b>Choose your gender</b>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <b>Select your interests</b>
+            <input type="checkbox" id="coding" value="coding">
+            <label for="coding">Coding</label>
+            <input type="checkbox" id="reading" value="reading">
+            <label for="reading">Reading</label><br>
+            <label for="bio">Bio (Up to 200 characters):</label>
+            <textarea id="bio"></textarea><br>
+            <button type="submit" class="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <a href="#top"><button class="fixedButton">TOP</button></a>
+
+  <footer>
+    <div style="width: 100%; height: 100%; display: flex; align-items: center; justify-content: center;">
+      <div>
+        <p>&copy; My Portfolio 2026</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
+
+
